@@ -1,5 +1,5 @@
 <?php
 	
-	This is a main WordPress file
+	echo "This is index page";
 		
 ?>
