@@ -1,6 +1,4 @@
-Page 123
-
-<?php
+<?php get_header();
 
 	while(have_posts()) {
 		the_post(); ?>
@@ -10,5 +8,7 @@ Page 123
 		
 		
 	<?php } 
+	
+	get_footer();
 	
 ?>
