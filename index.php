@@ -1,5 +1,7 @@
 <?php
 	
-	echo "This is index page";
-		
+	function greet($name) {
+		echo "<p>Hi, my name is $name ...</p>";
+	}
+	greet('Dragan');
 ?>
